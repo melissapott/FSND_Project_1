@@ -94,6 +94,9 @@ main_page_head = '''
 
 
 //this is for the detail info modal - added to starter code
+//props to http://fellowtuts.com/twitter-bootstrap/bootstrap-dynamic-modal-popup-with-dynamic-data-content/
+//for providing a great tutorial on dynamic data for modal content!
+
        $(document).ready(function () {
 	$('#detailInfoModal').on('show.bs.modal', function (event) { // id of the modal with event
 	  var button = $(event.relatedTarget) // Button that triggered the modal
